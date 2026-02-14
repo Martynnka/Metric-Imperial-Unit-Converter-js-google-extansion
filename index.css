@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  background: #A7F3D0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.app {
+  width: 360px;
+  overflow: hidden;
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.35);
+  background: #ffffff;
+}
+
+
+.hero {
+  background: #46e5a3;
+  padding: 28px 20px 22px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+}
+
+.title {
+  margin: 0;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.num-input {
+  width: 88px;
+  height: 64px;
+  border-radius: 6px;
+  border: 2px solid rgba(255, 255, 255, 0.45);
+  background: transparent;
+  color: #ffffff;
+  text-align: center;
+  font-size: 34px;
+  font-weight: 800;
+  outline: none;
+}
+
+.num-input:focus {
+  border-color: #ffffff;
+}
+
+.btn {
+  height: 34px;
+  padding: 0 18px;
+  border: none;
+  border-radius: 6px;
+  background: #ffffff;
+  color: #1f2937;
+  font-size: 12px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+}
+
+.btn:active {
+  transform: translateY(1px);
+}
+
+.content {
+  background: #f3f4f6;
+  padding: 18px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 14px 12px;
+  text-align: center;
+  border: 1px solid #e5e7eb;
+}
+
+.card h2 {
+  margin: 0 0 8px;
+  font-size: 14px;
+  color: #46e5a3; 
+  font-weight: 700;
+}
+
+.card p {
+  margin: 0;
+  font-size: 11px;
+  color: #6b7280;
+}
