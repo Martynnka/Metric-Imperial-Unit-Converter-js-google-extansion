@@ -29,3 +29,5 @@ Chrome Extension Version: 🔜 Planned
 
 - Add full conversion logic
 - Publish as a Chrome Extension
+
+<img width="629" height="637" alt="Screenshot_495" src="https://github.com/user-attachments/assets/8ac87f5d-8579-4ce5-9f67-7f891a6a677e" />
