@@ -1,33 +1,67 @@
-# Metric / Imperial Unit Converter
+📏 Metric / Imperial Unit Converter
 
-Third scrimba solo project.
+Third Scrimba Solo Project – extended and improved version.
 
-The final version will include:
-- Dynamic unit conversion (Length, Volume, Mass)
-- Interactive input updates
-- Chrome Extension version for quick access from the browser toolbar
+A simple and clean unit converter that allows users to convert between:
 
----
+Length (Meters ↔ Feet)
 
-## 🚧 Project Status
+Volume (Liters ↔ Gallons)
 
-UI / Layout: ✅ Completed  
-Conversion Script: 🔄 In progress  
-Chrome Extension Version: 🔜 Planned  
+Mass (Kilograms ↔ Pounds)
 
----
+The user enters a number, clicks Convert, and all three unit categories update instantly.
 
-## 🛠 Tech Stack
+🚀 Live Features
 
-- HTML  
-- CSS
-- JavaScrip 
+✅ Convert meters ↔ feet
 
----
+✅ Convert liters ↔ gallons
 
-## 📌 Future Plans
+✅ Convert kilograms ↔ pounds
 
-- Add full conversion logic
-- Publish as a Chrome Extension
+✅ Rounded results to 3 decimal places
 
-<img width="629" height="637" alt="Screenshot_495" src="https://github.com/user-attachments/assets/8ac87f5d-8579-4ce5-9f67-7f891a6a677e" />
+✅ Clean card-based UI layout
+
+✅ Single input – multiple dynamic outputs
+
+🛠 Tech Stack
+
+HTML
+
+CSS
+
+JavaScript
+
+🧠 How It Works
+
+The app:
+
+Takes the value from the input field
+
+Runs three separate conversion functions:
+
+convertLength()
+
+convertVolume()
+
+convertMass()
+
+Updates the DOM dynamically using textContent
+
+Formats results using .toFixed(3) for clean output
+
+Conversion Ratios Used
+1 meter = 3.281 feet
+1 liter = 0.264 gallon
+1 kilogram = 2.204 pound
+
+📦 Project Status
+
+UI / Layout: ✅ Completed
+Conversion Logic: ✅ Completed
+Chrome Extension Version: 🔜 Planned
+
+📸 Screenshot
+<img width="629" height="637" alt="App Screenshot" src="https://github.com/user-attachments/assets/8ac87f5d-8579-4ce5-9f67-7f891a6a677e" />
