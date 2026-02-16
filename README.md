@@ -61,7 +61,9 @@ Conversion Ratios Used
 
 UI / Layout: ✅ Completed
 Conversion Logic: ✅ Completed
-Chrome Extension Version: 🔜 Planned
+Chrome Extension Version: ✅ Completed
 
 📸 Screenshot
 <img width="629" height="637" alt="App Screenshot" src="https://github.com/user-attachments/assets/8ac87f5d-8579-4ce5-9f67-7f891a6a677e" />
+
+https://chromewebstore.google.com/detail/metricimperial-unit-conve/mdiflnbgalealpplldjhmmhldjcojapb?authuser=0&hl=lt
